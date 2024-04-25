@@ -1,0 +1,234 @@
+
+
+:root{
+  --color-background:#1d2425;
+  --color-form:#a8c5bd;
+  --color-h2:#2b3d37;
+  --color-h1:#e8eaed;
+  --color-tittle:#4d6d63;
+}
+
+body{
+  background-color: var(--color-background);
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--color-h1);
+  padding: 0px;
+  margin: 10px;
+}
+form{
+  text-align: center;
+}
+.dibujo-arriba {
+
+  position: relative;
+  margin: 30px auto 0;
+  padding: 10px 30px;
+  background-color: var(--color-tittle); /* Color de fondo del rectángulo */
+  color: white; /* Color del texto */
+  width: 44vw;
+}
+input {
+  border: none;
+  border-radius: 4px;
+}
+select{
+  border: none;
+  border-radius: 4px;
+}
+
+.dibujo-arriba::before,
+.dibujo-arriba::after {
+  content: "";
+  position: absolute;
+  width: 20px; /* Ancho de las puntas */
+  height: 20px; /* Altura de las puntas */
+  background-color: var(--color-background); /* Color de fondo del rectángulo */
+  transform: rotate(-135deg);
+}
+
+.dibujo-arriba::before {
+  bottom: -10px;
+  left: -10px;
+}
+
+.dibujo-arriba::after {
+  bottom: -10px;
+  right: -10px;
+}
+.dibujo {
+  position: relative;
+  margin: auto;
+  padding: 10px 30px;
+  background-color: var(--color-tittle); /* Color de fondo del rectángulo */
+  color: white; /* Color del texto */
+  width: 44vw;
+}
+.dibujo::before,
+    .dibujo::after {
+      content: "";
+      position: absolute;
+      width: 20px; /* Ancho de las puntas */
+      height: 20px; /* Altura de las puntas */
+      background-color: var(--color-background); /* Color de fondo del rectángulo */
+      transform: rotate(45deg);
+    }
+
+    .dibujo::before {
+      top: -10px;
+      left: -10px;
+    }
+
+    .dibujo::after {
+      top: -10px;
+      right: -10px;
+    }
+.h2-legend{
+  text-align: start;
+  
+}
+.form {
+  background-color: var(--color-form);
+  
+  max-width: 52vw;
+  margin: 30px auto 0;
+  border-radius: 4px;
+
+}
+.sedes{
+
+  max-width: max-content;
+  background-color: transparent;
+  color: black;
+
+}
+
+.inputs-check-box{
+display: flex;
+margin:6px;
+}
+
+
+legend {
+  background-color: var(--color-h2);
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.primer{
+  display: flex;
+  justify-content: center;
+}
+
+.input{
+  width: 40vw;
+  height: 30px;
+  text-decoration: none;
+  
+}
+.input:hover {
+  background-color: var(--color-h1); /* Cambia el color de fondo al pasar el mouse */
+}
+
+.nacionalidad{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 40px;
+
+}
+.contanos  {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto ;
+  width: 40vw;
+  height: 20px;
+  
+}
+.nacionalidad:hover {
+  background-color: var(--color-h1); /* Cambia el color de fondo al pasar el mouse */
+}
+
+textarea {
+  width: 40vw;
+  height:80px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+}
+.textarea:hover {
+  background-color: var(--color-h1); /* Cambia el color de fondo al pasar el mouse */
+}
+
+.tel-mail{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.tel-mail input {
+  width: 40vw;
+  height: 30px;
+  text-align: end;
+}
+
+.cuarto{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+  background-color: transparent;
+  color: white;
+  text-align: start;
+  
+}
+.botones{
+  text-align: center;
+}
+
+.botones button{
+  padding: 8px 12px;
+  margin: 10px;
+  color: var(--color-tittle);
+  background-color: var(--color-h2);
+  border-radius: 3px;
+  border: none;
+}
+.botones button:hover{
+  background-color: var(--color-tittle);
+  color: var(--color-h2);
+}
+.dots-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin:40px auto 0 ;
+  max-width: 40vh;
+  ;
+}
+
+.dot {
+  width: 20px; /* Tamaño del dot */
+  height: 20px;
+  background-color: var(--color-form); /* Color del dot */
+  border-radius: 50%; /* Forma circular */
+}

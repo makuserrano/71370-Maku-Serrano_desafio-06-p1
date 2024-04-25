@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <div class="dibujo-arriba"></div>
+    <h1>Vení al Gym! 💪</h1>
+    <div class="dibujo"></div>
+    <fieldset class="primer form">
+      <legend class="h2-legend">🙋‍♂️Datos personales👀</legend>
+      <div>
+        <form>
+          <label for="nombre">Nombre*:</label>
+          <br>
+          <input type="text" class="input" name="nombre" required>
+          <br>
+  
+          <label for="apellido">Apellido*:</label>
+          <br>
+
+          <input type="text" class="input" name="apellido" required>
+          <br>
+  
+          <label for="documento">Documento*:</label>
+          <br>
+
+          <input type="text" class="input" name="documento" required>
+          <br>
+  
+          <label  for="nacionalidad">Nacionalidad*:</label>
+          <select class="nacionalidad " name="nacionalidad" required>
+            <option value="" disabled selected>- Seleccionar -</option>
+            <option value="argentina">Argentina</option>
+            <option value="uruguaya">Uruguaya</option>
+            <option value="brasileña">Brasileña</option>
+            <option value="paraguaya">Paraguaya</option>
+          </select>
+          <br>
+  
+          
+          <label class="contanos primer" for="contanos">Contanos de vos:</label>
+          <textarea class="textarea" name="contanos"></textarea>
+          <br>
+          
+          
+          
+          
+          <label for="sexo">Sexo*:</label>
+          <div>
+            <input type="radio" id="femenino" class="sexo" value="femenino" >
+            <label for="femenino">Femenino</label>
+            
+            <input type="radio" id="masculino" class="sexo" value="masculino" >
+            <label for="masculino">Masculino</label>
+            
+            <input type="radio" id="otro" class="sexo" value="otro">
+            <label for="otro">Otro</label>
+          </div>
+          <br>
+          
+  
+        </form>
+      </div>
+    </fieldset>
+    
+      </form>
+
+      <div class="dots-container">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>  
+    
+      <fieldset class="segundo form">
+        <legend>📱Datos contacto📩</legend>
+        <div >
+          <form class="tel-mail">
+            <label for="telefono">Teléfono:</label>
+            <br>
+
+            <input type="tel" id="telefono" name="telefono" placeholder="Código de área y número" required>
+            <br>
+    
+            <label for="email">Dirección de correo electrónico:</label>
+            <br>
+
+            <input type="email" id="email" name="email" placeholder="ejemplo@mail.com" required>
+            <br>
+          </form>
+        </div>
+      </fieldset>
+    </div>
+    <div class="dots-container">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>  
+    <fieldset class="form">
+      <legend>🚲Actividades🤸‍♂️</legend>
+      <div>
+        <form class="form-tercer">
+          <p>Por favor, indica cuáles actividades te interesan:</p>
+          
+          <form>
+            <legend class="sedes">Sede Palermo:</legend>
+            <br>
+            <div class="inputs-check-box">
+            <input type="checkbox" id="basquet" name="basquet">
+            <label for="basquet">Básquet</label>
+
+            <input type="checkbox" id="boxeo" name="boxeo">
+            <label for="boxeo">Boxeo</label>
+
+            <input type="checkbox" id="futbol" name="futbol">
+            <label for="futbol">Fútbol</label>
+
+            <input type="checkbox" id="tenis" name="tenis">
+            <label for="tenis">Tenis</label>
+          </div>
+            <br>
+          </form>
+          
+          <form>
+            <br>
+            <legend class="sedes">Sede Rosario:</legend>
+            <br>
+            <div class="inputs-check-box">
+            <input type="checkbox" id="basquet_rosario" name="basquet_rosario">
+            <label for="basquet_rosario">Básquet</label>
+  
+            <input type="checkbox" id="futbol_rosario" name="futbol_rosario">
+            <label for="futbol_rosario">Fútbol</label>
+  
+            <input type="checkbox" id="rugby" name="rugby">
+            <label for="rugby">Rugby</label>
+  
+            <input type="checkbox" id="voley" name="voley">
+            <label for="voley">Vóley</label>
+            </div>
+          </form>
+          
+        </form>
+      </div>
+    </fieldset>
+    <form class="cuarto form">
+      <div class="checkbox-group">
+        <input type="checkbox" id="acepto" name="acepto" required>
+        <label for="acepto">Acepto las condiciones*</label>
+
+        <input type="checkbox" id="novedades" name="novedades">
+        <label for="novedades">Deseo recibir novedades</label>
+      </div>
+      <p class="required-field">*: Campo obligatorio</p>
+    </form>
+    <div class="botones">
+    <button type="submit">Iniciar afiliación</button>
+    <button type="reset">Restablecer</button>
+  </div>
+  </form>
+</div>
+</fieldset>
+</div>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
